@@ -1,0 +1,55 @@
+* {
+  background-color: #F5F5F5;
+  margin: 0px 0px;
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.cuerpo_principal {
+  display: flex;
+  height: 75vh;
+}
+
+.h1_h2_p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+h1 {
+  font-family: "gadugi";
+}
+
+h2 {
+  font-family: "gadugi";
+  font-style: italic;
+  font-weight: lighter;
+  color: grey;
+  opacity: 0.8;
+}
+
+img {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vh;
+}
+
+.p_principal {
+  font-size: 25px;
+  line-height: inherit;
+}
+
+p {
+  font-size: 19px;
+  font-family: "calibri";
+  color: grey;
+  line-height: 1.5;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-end;
+}
